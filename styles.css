@@ -57,7 +57,7 @@ html, body {
 }
 
 input#playerName.form-control{
-    width: 500px;
+    width: 315px;
 }
 body {
     display: flex;
