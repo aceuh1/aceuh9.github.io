@@ -77,7 +77,7 @@ body {
     cursor: pointer;
     width: 134px; /* Adjust the width as needed */
     overflow: hidden; /* Ensures content doesn't overflow */
-    margin: 0px;
+    margin: 10px;
     position: relative;
     height: 168px;
 }
