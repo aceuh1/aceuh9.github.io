@@ -75,11 +75,11 @@ body {
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
     cursor: pointer;
-    width: 200px; /* Adjust the width as needed */
+    width: 134px; /* Adjust the width as needed */
     overflow: hidden; /* Ensures content doesn't overflow */
-    margin: 30px;
+    margin: 0px;
     position: relative;
-    min-height: 250px;
+    height: 168px;
 }
 
 .card:hover {
