@@ -70,7 +70,7 @@ html, body {
     flex-direction: column;
     justify-content: flex-end; /* Aligns form to the bottom */
     align-items:center;
-    padding-bottom: 50px; /* Adds some space from the bottom */
+   
 }
 
 input#playerName.form-control{
