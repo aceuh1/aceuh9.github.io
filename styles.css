@@ -70,7 +70,7 @@ html, body {
     flex-direction: column;
     justify-content: flex-end; /* Aligns form to the bottom */
     align-items:center;
-   margin-bottom: 30px;
+   margin-bottom: 75px;
 }
 
 input#playerName.form-control{
