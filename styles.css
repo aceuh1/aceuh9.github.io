@@ -94,9 +94,9 @@ body {
     cursor: pointer;
     width: 134px; /* Adjust the width as needed */
     overflow: hidden; /* Ensures content doesn't overflow */
-    margin: 0px;
+    margin: 10px;
     position: relative;
-    height: 168px;
+    height: 156px;
 }
 
 .card:hover {
@@ -130,8 +130,7 @@ body {
 .card {
     border: 1px solid #ccc; /* Add a border to the card */
    
-    transform: scale(.75);
-    max-height:250px;
+  
 }
 
 .card:hover {
