@@ -1,3 +1,20 @@
+@keyframes flicker {
+    0% { opacity: 1; text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff; }
+    50% { opacity: 0.8; text-shadow: 0 0 5px #0ff, 0 0 15px #0ff, 0 0 30px #0ff, 0 0 60px #0ff; }
+    100% { opacity: 1; text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff; }
+}
+
+.neon-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0ff;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+    animation: flicker 1.5s infinite alternate;
+    margin-bottom: 20px;
+}
+
+
 .home {
     background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/12cbe8a4-f55c-4b40-85bb-d8e1405e7b84/d9z012d-5fede961-d0da-4b17-9e06-9095151a737e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzEyY2JlOGE0LWY1NWMtNGI0MC04NWJiLWQ4ZTE0MDVlN2I4NFwvZDl6MDEyZC01ZmVkZTk2MS1kMGRhLTRiMTctOWUwNi05MDk1MTUxYTczN2UuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.WG-nKd-O54PlDDh9lsfHFw-sFsy3cO9AixRI3Mp1LpE'); /* Replace with your image path */
     background-size: cover; /* Ensures the image covers the entire page */
